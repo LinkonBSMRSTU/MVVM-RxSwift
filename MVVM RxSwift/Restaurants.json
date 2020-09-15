@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Blue Lagoon",
+        "cuisine": "European"
+    },
+    {
+        "name": "Four Seasons",
+        "cuisine": "European"
+    },
+    {
+        "name": "Le Mercury",
+        "cuisine": "French"
+    },
+    {
+        "name": "Dishoom",
+        "cuisine": "Indian"
+    },
+    {
+        "name": "The Grand Brasserie",
+        "cuisine": "French"
+    },
+    {
+        "name": "Wahaca",
+        "cuisine": "Mexican"
+    },
+    {
+        "name": "The Inglishton",
+        "cuisine": "English"
+    },
+    {
+        "name": "La Meridian",
+        "cuisine": "Bangladeshi"
+    }
+]

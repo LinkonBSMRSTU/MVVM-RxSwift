@@ -14,6 +14,7 @@
 		4F307272250F49D3001C8968 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F307270250F49D3001C8968 /* Main.storyboard */; };
 		4F307274250F49D4001C8968 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F307273250F49D4001C8968 /* Assets.xcassets */; };
 		4F307277250F49D4001C8968 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F307275250F49D4001C8968 /* LaunchScreen.storyboard */; };
+		4F7615472510CC1E0041BD86 /* Restaurants.json in Resources */ = {isa = PBXBuildFile; fileRef = 4F7615462510CC1E0041BD86 /* Restaurants.json */; };
 		4FE46875250F754100B76C68 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE46874250F754100B76C68 /* AppCoordinator.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		4F307273250F49D4001C8968 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F307276250F49D4001C8968 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F307278250F49D4001C8968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F7615462510CC1E0041BD86 /* Restaurants.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Restaurants.json; sourceTree = "<group>"; };
 		4FE46874250F754100B76C68 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		57D4975135A11505C2D81082 /* Pods_MVVM_RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVM_RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B57106116725FAB07DD0F763 /* Pods-MVVM RxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM RxSwift.release.xcconfig"; path = "Target Support Files/Pods-MVVM RxSwift/Pods-MVVM RxSwift.release.xcconfig"; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				4F307273250F49D4001C8968 /* Assets.xcassets */,
 				4F307275250F49D4001C8968 /* LaunchScreen.storyboard */,
 				4F307278250F49D4001C8968 /* Info.plist */,
+				4F7615462510CC1E0041BD86 /* Restaurants.json */,
 			);
 			path = "MVVM RxSwift";
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F7615472510CC1E0041BD86 /* Restaurants.json in Resources */,
 				4F307277250F49D4001C8968 /* LaunchScreen.storyboard in Resources */,
 				4F307274250F49D4001C8968 /* Assets.xcassets in Resources */,
 				4F307272250F49D3001C8968 /* Main.storyboard in Resources */,
