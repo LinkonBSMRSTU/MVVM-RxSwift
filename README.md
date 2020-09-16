@@ -1,2 +1,5 @@
 # MVVM-RxSwift
-Still working, will update whole MVVM-RxSwift Architecture project soon
+
+A simple Restaurant List Showing App from self created JSON data with MVVM model using RxSwift.
+
+![MVVM-RxSwift](/images/pic.png)
