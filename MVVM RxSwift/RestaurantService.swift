@@ -9,9 +9,13 @@
 import Foundation
 import RxSwift
 
-class RestaurantService {
+protocol RestaurantsServiceProtocol {
+    func fetchRestaurants() -> Observable<[Restaurant]>
+}
 
-    func fetchRestaurant() -> Observable<[Restaurant]> {
+class RestaurantService: RestaurantsServiceProtocol {
+
+    func fetchRestaurants() -> Observable<[Restaurant]> {
 
         return Observable.create { (observer) -> Disposable in
 

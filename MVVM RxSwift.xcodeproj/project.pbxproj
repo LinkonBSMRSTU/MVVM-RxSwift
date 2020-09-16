@@ -18,6 +18,8 @@
 		4F7615492510CD2B0041BD86 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7615482510CD2B0041BD86 /* Restaurant.swift */; };
 		4F76154B2510CE350041BD86 /* RestaurantService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F76154A2510CE350041BD86 /* RestaurantService.swift */; };
 		4FE46875250F754100B76C68 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE46874250F754100B76C68 /* AppCoordinator.swift */; };
+		4FF6B3492511DB3100212D8C /* RestaurantsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF6B3482511DB3100212D8C /* RestaurantsListViewModel.swift */; };
+		4FF6B34B2511DDA300212D8C /* RestaurantViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF6B34A2511DDA300212D8C /* RestaurantViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		4F7615482510CD2B0041BD86 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		4F76154A2510CE350041BD86 /* RestaurantService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantService.swift; sourceTree = "<group>"; };
 		4FE46874250F754100B76C68 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		4FF6B3482511DB3100212D8C /* RestaurantsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsListViewModel.swift; sourceTree = "<group>"; };
+		4FF6B34A2511DDA300212D8C /* RestaurantViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewModel.swift; sourceTree = "<group>"; };
 		57D4975135A11505C2D81082 /* Pods_MVVM_RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVM_RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B57106116725FAB07DD0F763 /* Pods-MVVM RxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM RxSwift.release.xcconfig"; path = "Target Support Files/Pods-MVVM RxSwift/Pods-MVVM RxSwift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,6 +86,8 @@
 				4F7615462510CC1E0041BD86 /* Restaurants.json */,
 				4F7615482510CD2B0041BD86 /* Restaurant.swift */,
 				4F76154A2510CE350041BD86 /* RestaurantService.swift */,
+				4FF6B3482511DB3100212D8C /* RestaurantsListViewModel.swift */,
+				4FF6B34A2511DDA300212D8C /* RestaurantViewModel.swift */,
 			);
 			path = "MVVM RxSwift";
 			sourceTree = "<group>";
@@ -220,10 +226,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F7615492510CD2B0041BD86 /* Restaurant.swift in Sources */,
+				4FF6B34B2511DDA300212D8C /* RestaurantViewModel.swift in Sources */,
 				4FE46875250F754100B76C68 /* AppCoordinator.swift in Sources */,
 				4F30726F250F49D3001C8968 /* ViewController.swift in Sources */,
 				4F30726B250F49D3001C8968 /* AppDelegate.swift in Sources */,
 				4F76154B2510CE350041BD86 /* RestaurantService.swift in Sources */,
+				4FF6B3492511DB3100212D8C /* RestaurantsListViewModel.swift in Sources */,
 				4F30726D250F49D3001C8968 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
